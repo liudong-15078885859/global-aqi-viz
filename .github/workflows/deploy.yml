@@ -5,13 +5,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-# 设置 GITHUB_TOKEN 权限以允许部署到 GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 允许一个部署并发
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -34,8 +32,13 @@ jobs:
           rm -rf node_modules package-lock.json
           npm install
 
-      - name: Build
-        run: npm run build
+      # 本地已构建并提交 docs/，此步骤确保 docs 目录存在即可
+      - name: Verify docs folder exists
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "docs/ 目录不存在，请先在本地执行 npm run build 并提交"
+            exit 1
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -43,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./docs
 
       - name: Deploy to GitHub Pages
         id: deployment
