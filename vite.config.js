@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  base: '/',
+  base: '/global-aqi-viz/',
   build: {
     outDir: 'docs'
   }
