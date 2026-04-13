@@ -1,0 +1,177 @@
+[
+  {
+    "id": "beijing",
+    "name": "北京",
+    "country": "中国",
+    "lat": 39.9042,
+    "lng": 116.4074
+  },
+  {
+    "id": "shanghai",
+    "name": "上海",
+    "country": "中国",
+    "lat": 31.2304,
+    "lng": 121.4737
+  },
+  {
+    "id": "delhi",
+    "name": "德里",
+    "country": "印度",
+    "lat": 28.6139,
+    "lng": 77.209
+  },
+  {
+    "id": "mumbai",
+    "name": "孟买",
+    "country": "印度",
+    "lat": 19.076,
+    "lng": 72.8777
+  },
+  {
+    "id": "newyork",
+    "name": "纽约",
+    "country": "美国",
+    "lat": 40.7128,
+    "lng": -74.006
+  },
+  {
+    "id": "losangeles",
+    "name": "洛杉矶",
+    "country": "美国",
+    "lat": 34.0522,
+    "lng": -118.2437
+  },
+  {
+    "id": "london",
+    "name": "伦敦",
+    "country": "英国",
+    "lat": 51.5074,
+    "lng": -0.1278
+  },
+  {
+    "id": "paris",
+    "name": "巴黎",
+    "country": "法国",
+    "lat": 48.8566,
+    "lng": 2.3522
+  },
+  {
+    "id": "tokyo",
+    "name": "东京",
+    "country": "日本",
+    "lat": 35.6895,
+    "lng": 139.6917
+  },
+  {
+    "id": "osaka",
+    "name": "大阪",
+    "country": "日本",
+    "lat": 34.6937,
+    "lng": 135.5023
+  },
+  {
+    "id": "moscow",
+    "name": "莫斯科",
+    "country": "俄罗斯",
+    "lat": 55.7558,
+    "lng": 37.6173
+  },
+  {
+    "id": "sydney",
+    "name": "悉尼",
+    "country": "澳大利亚",
+    "lat": -33.8688,
+    "lng": 151.2093
+  },
+  {
+    "id": "capetown",
+    "name": "开普敦",
+    "country": "南非",
+    "lat": -33.9249,
+    "lng": 18.4241
+  },
+  {
+    "id": "saopaulo",
+    "name": "圣保罗",
+    "country": "巴西",
+    "lat": -23.5505,
+    "lng": -46.6333
+  },
+  {
+    "id": "mexicocity",
+    "name": "墨西哥城",
+    "country": "墨西哥",
+    "lat": 19.4326,
+    "lng": -99.1332
+  },
+  {
+    "id": "cairo",
+    "name": "开罗",
+    "country": "埃及",
+    "lat": 30.0444,
+    "lng": 31.2357
+  },
+  {
+    "id": "lagos",
+    "name": "拉各斯",
+    "country": "尼日利亚",
+    "lat": 6.5244,
+    "lng": 3.3792
+  },
+  {
+    "id": "seoul",
+    "name": "首尔",
+    "country": "韩国",
+    "lat": 37.5665,
+    "lng": 126.978
+  },
+  {
+    "id": "bangkok",
+    "name": "曼谷",
+    "country": "泰国",
+    "lat": 13.7563,
+    "lng": 100.5018
+  },
+  {
+    "id": "jakarta",
+    "name": "雅加达",
+    "country": "印度尼西亚",
+    "lat": -6.2088,
+    "lng": 106.8456
+  },
+  {
+    "id": "singapore",
+    "name": "新加坡",
+    "country": "新加坡",
+    "lat": 1.3521,
+    "lng": 103.8198
+  },
+  {
+    "id": "berlin",
+    "name": "柏林",
+    "country": "德国",
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  {
+    "id": "rome",
+    "name": "罗马",
+    "country": "意大利",
+    "lat": 41.9028,
+    "lng": 12.4964
+  },
+  {
+    "id": "toronto",
+    "name": "多伦多",
+    "country": "加拿大",
+    "lat": 43.6532,
+    "lng": -79.3832
+  },
+  {
+    "id": "dubai",
+    "name": "迪拜",
+    "country": "阿联酋",
+    "lat": 25.2048,
+    "lng": 55.2708
+  }
+]
