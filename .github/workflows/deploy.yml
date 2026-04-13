@@ -32,6 +32,9 @@ jobs:
           rm -rf node_modules package-lock.json
           npm install
 
+      - name: Build
+        run: npm run build
+
       # 本地已构建并提交 docs/，此步骤确保 docs 目录存在即可
       - name: Verify docs folder exists
         run: |

@@ -49,9 +49,12 @@ git push -u origin main
 
 #### 步骤4: 启用GitHub Pages
 1. 进入仓库 **Settings** → **Pages**
-2. 在 **Source** 下拉框中选择 **gh-pages** 分支
-3. 点击 **Save**
-4. 等待1-2分钟，访问: `https://[YOUR_USERNAME].github.io/global-aqi-viz/`
+2. 在 **Build and deployment** → **Source** 选择 **Deploy from a branch**
+3. 在 **Branch** 下拉框中选择 **main** 分支，**/docs** 目录
+4. 点击 **Save**
+5. 等待1-2分钟，访问: `https://[YOUR_USERNAME].github.io/[REPOSITORY_NAME]/`
+
+**注意**: 现在网站会直接从主分支的 `/docs` 目录部署，不需要单独的 `gh-pages` 分支
 
 ---
 
