@@ -27,9 +27,6 @@ const mapTransform = ref({ k: 1, x: 0, y: 0 })
 const isPlaying = ref(false)
 const playInterval = ref(null)
 
-// 数据基础路径 — 兼容本地开发（/）和 GitHub Pages 子目录（/repo-name/）
-const BASE = import.meta.env.BASE_URL || '/'
-
 function fetchWithTimeout(url, timeoutMs = 10000) {
   const controller = new AbortController()
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs)
@@ -47,15 +44,15 @@ async function loadData() {
 
     const [citiesRes, measRes, worldRes] = await Promise.race([
       Promise.all([
-        fetchWithTimeout(BASE + 'data/cities.json', 15000).then(r => {
+        fetchWithTimeout('/data/cities.json', 15000).then(r => {
           if (!r.ok) throw new Error('Failed to load cities data (HTTP ' + r.status + ')')
           return r.json()
         }),
-        fetchWithTimeout(BASE + 'data/measurements.json', 15000).then(r => {
+        fetchWithTimeout('/data/measurements.json', 15000).then(r => {
           if (!r.ok) throw new Error('Failed to load measurements data (HTTP ' + r.status + ')')
           return r.json()
         }),
-        fetchWithTimeout(BASE + 'data/world-110m.json', 10000)
+        fetchWithTimeout('/data/world-110m.json', 10000)
           .then(r => {
             if (!r.ok) throw new Error('Failed to load local world map data (HTTP ' + r.status + ')')
             return r.json()
