@@ -4,7 +4,7 @@
 
 本项目是一个交互式全球空气质量指数（AQI）可视化工具，帮助用户直观探索全球空气污染的空间分布与时间演变趋势。工具以等值线地图为核心，集成时间轴刷选、城市详情查看、多城市对比和国家/地区过滤等交互功能，采用 **Vue 3 + D3.js** 技术栈构建，并部署至 GitHub Pages。
 
-**在线访问地址**: https://[your-username].github.io/global-aqi-viz/
+**在线访问地址**: https://liudong-15078885859.github.io/global-aqi-viz/
 
 ---
 
